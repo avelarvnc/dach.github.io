@@ -1,0 +1,190 @@
+body{
+	background-color: #F0F0F0 !important;
+	scroll-behavior: smooth;
+	font-family: 'Arimo', sans-serif;
+	padding: 0 48px;
+
+}
+
+header {
+	background-color: #E4C03B;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 16px;
+	border-radius: 15px;
+
+}
+
+h1
+{
+	color: #40275B;
+	font-size: 2.5em;
+
+}
+
+h2{
+	color: #222;
+}
+
+p{
+	font-size: 1.2em;
+	color: 	#494949;
+}
+
+
+
+
+#area_logo img{
+	z-index: 9;
+	position: absolute;
+	margin-top: -48px;
+}
+
+nav a
+{
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: 700;
+	margin: 0 8px;
+}
+
+nav a:hover
+{
+	color: #F0F0F0;
+}
+
+#area_banner
+{
+	margin-top: 48px;
+
+
+
+}
+
+#area_banner img{
+	width: 100%;
+	height: 400px;
+	border-radius: 15px;
+		box-shadow: rgba(0, 0, 0, 0.15) 2.95px 2.95px 3.6px;
+}
+
+.card_perfil
+{
+	background-color: #FAFAFA;
+	border-radius: 10px;
+	padding: 8px;
+		box-shadow: rgba(0, 0, 0, 0.15) 2.95px 2.95px 3.6px;
+}
+
+.card_perfil_foto
+{
+	height: 300px;
+	width: 400px;
+	border-radius: 10px;
+		box-shadow: rgba(0, 0, 0, 0.15) 2.95px 2.95px 3.6px;
+}
+
+#area_portifolio_perfis
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+#area_beneficios
+{
+	
+	margin-top: 48px;
+}
+
+#area_beneficios_cards
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.card_beneficios
+{
+	width: 30%;
+	text-align: center;
+
+}
+
+#area_contato
+{
+	margin-top: 48px;
+}
+
+#area_contato_cards{
+	display: flex;
+	justify-content: space-around;
+}
+
+#area_contato_cards h2{
+	font-size: 1.6em;
+}
+
+#form_contato
+{
+	width: 50%;
+}
+
+.form-control
+{
+	width: 80%;
+	margin-top: 8px;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	color: #40275B;
+}
+
+::placeholder
+{
+	color: #40275B;
+}
+
+.form-btn{
+	width: 80%;
+	height: 48px;
+	margin: 0 auto;
+	font-size: 1.4em;
+	background-color: #40275B;
+	color: #F0F0F0;
+	border: 0px;
+	border-radius: 5px;
+}
+
+#area_localizacao{
+	width: 40%;
+}
+
+#area_localizacao p{
+	font-size: 1em;
+}
+
+
+#gmaps{
+	width: 100%;
+	height: 350px;
+}
+
+.social_icon
+{
+	width: 5%;
+	height: 5%;
+	margin: 0 8px;
+}
+
+footer
+{
+	margin-top: 48px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+footer p
+{
+		font-size: 1em;
+}
