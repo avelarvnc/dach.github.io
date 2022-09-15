@@ -1,7 +1,7 @@
 body{
 	background-color: #F0F0F0 !important;
 	scroll-behavior: smooth;
-	font-family: 'Arimo', sans-serif;
+	font-family: 'Arimo', sans-serif !important;
 	padding: 0 48px;
 
 }
@@ -52,7 +52,7 @@ nav a
 
 nav a:hover
 {
-	color: #F0F0F0;
+	color: #404040;
 }
 
 #area_banner
@@ -137,17 +137,20 @@ nav a:hover
 	border-radius: 5px;
 	font-size: 1.2rem;
 	color: #40275B;
+	font-family: 'Arimo', sans-serif;
 }
 
 ::placeholder
 {
 	color: #40275B;
+	font-style: italic;
+	opacity: 0.7;
 }
 
 .form-btn{
-	width: 80%;
+	width: 40%;
 	height: 48px;
-	margin: 0 auto;
+	margin: 8px 20%;
 	font-size: 1.4em;
 	background-color: #40275B;
 	color: #F0F0F0;
@@ -187,4 +190,23 @@ footer
 footer p
 {
 		font-size: 1em;
+}
+
+
+@media (max-width: 480px) {
+  #area_portifolio_perfis{
+ 	flex-direction: column;
+  }
+
+  #area_beneficios_cards
+  {
+  	flex-direction: column;
+  }
+
+  #card_perfil_foto 
+  {
+  	width: 100% !important;
+
+  }
+
 }
