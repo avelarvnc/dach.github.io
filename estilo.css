@@ -23,7 +23,7 @@ header {
 h1
 {
 	color: #40275B;
-	font-size: 44px;
+	font-size: 56px;
 
 }
 
@@ -127,6 +127,10 @@ nav a:hover
 	width: 100%;
 }
 
+#area_contato_cards h2{
+	font-size: 48px;
+}
+
 #form_contato
 {
 	width: 100%;
@@ -137,7 +141,7 @@ nav a:hover
 	width: 100%;
 	margin-top: 8px;
 	border-radius: 5px;
-	font-size: 28px;
+	font-size: 32px;
 	color: #40275B;
 	font-family: 'Arimo', sans-serif;
 }
@@ -149,11 +153,15 @@ nav a:hover
 	opacity: 0.7;
 }
 
+textarea {
+  resize: none;
+}
+
 .form-btn{
 	width: 80%;
-	height: 48px;
+	height: 96px;
 	margin: 16px 10%;
-	font-size: 32px;
+	font-size: 48px;
 	background-color: #40275B;
 	color: #F0F0F0;
 	border: 0px;
@@ -187,7 +195,7 @@ footer
 
 footer p
 {
-		font-size: 18px;
+		font-size: 20px;
 }
 
 
