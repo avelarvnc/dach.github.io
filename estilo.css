@@ -1,6 +1,9 @@
+html{
+		scroll-behavior: smooth;
+}
+
 body{
 	background-color: #F0F0F0 !important;
-	scroll-behavior: smooth;
 	font-family: 'Arimo', sans-serif !important;
 	padding: 0 48px;
 
@@ -20,17 +23,17 @@ header {
 h1
 {
 	color: #40275B;
-	font-size: 40px;
+	font-size: 44px;
 
 }
 
 h2{
 	color: #222;
-	font-size: 32px;
+	font-size: 36px;
 }
 
 p{
-	font-size: 20px;
+	font-size: 24px;
 	color: 	#494949;
 }
 
@@ -43,9 +46,10 @@ p{
 	margin-top: -48px;
 }
 
-nav a, nav a:active, nav a:link
+a
 {
 	text-decoration: none;
+	color: #40275B;
 	font-size: 28px;
 	font-weight: 700;
 	margin: 0 8px;
@@ -133,7 +137,7 @@ nav a:hover
 	width: 100%;
 	margin-top: 8px;
 	border-radius: 5px;
-	font-size: 24px;
+	font-size: 28px;
 	color: #40275B;
 	font-family: 'Arimo', sans-serif;
 }
@@ -163,7 +167,7 @@ nav a:hover
 
 #gmaps{
 	width: 100%;
-	height: 350px;
+	height: 500px;
 }
 
 .social_icon
@@ -183,7 +187,7 @@ footer
 
 footer p
 {
-		font-size: 16px;
+		font-size: 18px;
 }
 
 
@@ -205,8 +209,8 @@ footer p
 
   .card_perfil_foto
 	{
-		height: 250px;
-		width: 400px;
+		height: 50%;
+		width: 100%;
 		margin: 0 auto;
 		border-radius: 10px;
 		box-shadow: rgba(0, 0, 0, 0.15) 2.95px 2.95px 3.6px;
